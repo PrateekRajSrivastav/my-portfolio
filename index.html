@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <title>My-Portfolio</title>
 </head>
 <body>
-    <header class="shadow-lg p-2 m-2 flex justify-between bg-gray-800">   
+
+    <!-- header -->
+    <header class="shadow-lg p-2 m-2 flex justify-between bg-[#432c57] mb-0 pb-0">   
         <div>
             <img 
-            class="h-10 w-10 cursor-pointer"
+            class="h-10 w-22 cursor-pointer"
             alt="logo" 
-            src="https://w7.pngwing.com/pngs/267/531/png-transparent-portfolio-briefcase-showcase-business-adobe-portfolio-adobe-family-software-icon.png" 
+            src="https://www.nicepng.com/png/full/111-1112693_portfolio-my-portfolio.png" 
             />
         </div>
         <ul class="flex text-white">
@@ -24,5 +28,31 @@
             <li class="m-2 hover:text-sky-300 cursor-pointer">Contact</li>
         </ul>
     </header>
+
+    
+    <main class="bg-[#432c57] flex pl-2 pr-2 mr-2 ml-2 mt-0 pt-0 border border-black-500 ">
+        
+            <img 
+            class="h-52 w-52 rounded-full hover:shadow-white shadow-lg p-2 m-2"
+            alt="my-pic"
+            src="img/my pic.jpg"
+            />
+            <div class="grid justify-items-end p-2 m-2">
+                <h1 class="w-1/2 text-white">
+                    Hi,
+                    <br/>
+                    As a third-year software engineering student, I'm passionate about crafting elegant solutions to complex problems. With a strong foundation in programming and a thirst for knowledge, I continuously explore emerging technologies and seek opportunities to contribute to the world of software development.
+                </h1>
+                <ul class="flex p-5 m-5">
+                    <li class="m-5 w-22 h-22"><i class="fa fa-linkedin w-22 h-22" aria-hidden="true"></i></li>
+                    <li class="m-5"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li class="m-5"><i class="fa fa-github" aria-hidden="true"></i></li>
+                    <li class="m-5"><iconify-icon icon="simple-icons:leetcode"></iconify-icon></li>
+                </ul>
+            </div>
+        
+    </main>
+    
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </body>
 </html>
